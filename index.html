@@ -27,6 +27,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link href="http://cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+		<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+		<style type="text/css">
+		#mce-success-response{color:#ffffff}
+		*{font-family: Open Sans}
+		/* #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; } */
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -102,27 +109,41 @@
 
 						<!-- Contact -->
 							<article id="contact">
-								<h2 class="major">Sign Up to Stay In Touch</h2>
-								<form method="post" action="#">
+								<h2 class="major">Stay In Touch</h2>
+								<div id="mc_embed_signup">
+								<form method="post" action="https://datalitnetwork.us4.list-manage.com/subscribe/post?u=19fb0922f30aa8885e1fc0e95&amp;id=6ea9a28333" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate >
 									<div class="fields">
 										<div class="field half">
-											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
+											<label for="name">First Name</label>
+											<input type="text" name="FNAME" id="mce-FNAME" />
 										</div>
 										<div class="field half">
-											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
+											<label for="name">Last Name</label>
+											<input type="text" name="LNAME" id="mce-LNAME" />
+										</div>
+										<div class="field">
+											<label for="email">Email <span class="asterisk">*</span></label>
+											<input type="text" class = "required email" name="EMAIL" id="mce-EMAIL" />
 										</div>
 										<!-- <div class="field">
 											<label for="message">Message</label>
 											<textarea name="message" id="message" rows="4"></textarea>
 										</div> -->
 									</div>
+									<div style=" width: 100%; margin:0px; padding-bottom: 1.5rem" id="mce-responses" class="clear">
+										<div style="font-weight: normal; width:100%" class="response" id="mce-error-response" style="display:none"></div>
+										<div style="font-weight: normal; width:100%" class="response" id="mce-success-response" style="display:none"></div>
+									</div>
 									<ul class="actions">
-										<li><input type="submit" value="Sign Up" class="primary" /></li>
+										
+										<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    									<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_19fb0922f30aa8885e1fc0e95_6ea9a28333" tabindex="-1" value=""></div>
+										<li><input type="submit"  name="subscribe" value="Subscribe" class="primary" /></li>
 										<li><input type="reset" value="Reset" /></li>
 									</ul>
+									<script type='text/javascript' src='http://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 								</form>
+								</div>
 								<ul class="icons">
 									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
